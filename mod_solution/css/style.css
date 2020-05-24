@@ -1,0 +1,52 @@
+h1{
+	text-align:center;
+	}
+	h2{
+	text-align:center;
+border:1px solid black;
+}
+#p1{
+background-color:red;
+}
+#p2{
+background-color:yellow;
+}
+#p3{
+background-color:green;
+}
+
+	div {
+	background-color:skyblue;
+	}
+* {
+  box-sizing:border-box;
+  margin:10px;
+}
+
+.chicken {
+  border:2px solid black;
+  padding:10px;
+  float:left;
+  width:33%; /* The width is 20%, by default */
+}
+
+.beef {
+  border:2px solid black;
+  padding:10px;
+  float:left;
+  width:34%; /* The width is 60%, by default */
+}
+
+.sushi {
+  border:2px solid black;
+  padding:10px;
+  float:left;
+  width:33%; /* The width is 20%, by default */
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:1200px) {
+  .chicken, .beef, .sushi {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
